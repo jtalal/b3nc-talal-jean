@@ -1,0 +1,57 @@
+body {
+	background-color: DarkSalmon;
+	background: url("../img/beachsummer.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+	font-family: 'Pacifico', cursive;
+
+}
+
+p{font-family: 'Saira', sans-serif;}
+
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+
+}
+
+h2{
+	font-size: 30px;
+	text-transform: lowercase;
+	color: brown;
+	letter-spacing: 1px;
+
+
+}
+
+#me {
+	height: 200px;
+	border-radius: 30%;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: lightblue;
+	margin-top: 50px
+
+}
+
+.about {
+	width: 100%;
+
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+
+}
+
+
+
+path
+directory
+location
+dots (..) lumabas one folder up
+bckground attachment- fixed to remove white xss background

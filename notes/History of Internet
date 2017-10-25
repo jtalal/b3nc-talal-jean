@@ -1,0 +1,48 @@
+History of Internet
+1950s-multitasking
+1957 sharing using one system but with many users
+1960-1980
+packet switching// introduced by the national physical lab (NPL)
+technique for transmitting long messages of data
+messages is broken into a number of parts that are sent independently then formed once recieved . messages take different routes until it all pass on the same server.
+packet loss//packets of data fail to reach the destination
+
+ARPANET//
+
+TCP/IP//
+
+How internet works
+Building blocks of internet
+OSI Reference model: physical/data link/network/transpoort/sessiom/presntxn/app
+TCP/IP: network interface/internet/transport/app
+
+basic layers:
+Network INterface// how devices communicate using a physical medium
+modem //modulator converts signals from digital to analog
+asscess point (router) for wireles devices
+
+internet backbone -underwater (submarine cables)
+
+Internet// std method for device-device comm is used (protocol)
+Internet protocol (IP)
+3 functions
+1. Id of each device connecrted to network
+2. formatting of msgs
+3. routing of messages from source to destination
+device ID-IP address is required
+unique to all devices connected to network
+
+127.0.0.1 -localhost
+16 digits (hexadecimal) 0-9/A-F
+newer version of IP address IPv6
+
+Domain Name System (DNS) IP address to string of texts//naming sys that maps a domain name to a specific IP address
+www (3rd level domain).example(2nd level domain).com(top level domain)// www.example.com
+message format 
+
+packet routing//packets travel across the globe taking the shortest route possible/indiv packets arrive and reassembled/once assembled message will be sent into orig computer as confirmation
+
+App//activities and functions that can be performed using the internet
+email
+games
+etc

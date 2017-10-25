@@ -7,4 +7,3 @@
 # 2017-10-25
 ### Getting started with GitLab
 This is my first feedback
-

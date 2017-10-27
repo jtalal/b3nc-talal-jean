@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- meta examples -->
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="X-UA-Compatible" content="IE=Edge">
+
 	<title>My Second Website - This is the best website among the rest! STFU!</title>
 	<style type="text/css">
 		table, tr, th, td {
@@ -15,6 +19,10 @@
 
 </head>
 <body>
+
+	
+
+	<!-- this is a bunch of headers -->
 	<h1>This is the main heading</h1>
 	<h2>This is subheading of h1</h2>
 	<h3>This is subheading of h2</h3>
@@ -307,6 +315,7 @@
 	<form action="" method="">
 		<button>
 			<img src="img/axolotlcutey.jpg" alt="Cutest rare marine creature ever">
+			<br>
 			Cutest rare marine creature ever
 		</button>
 
@@ -324,29 +333,32 @@
 	</form>
 	<hr>
 
+	<form action="" method="" style="width:50%;">
+		
 	<fieldset>
 		<legend>Contact Details</legend>
 		<label for="email">Email</label>
-		<input type="email" name="email">
+		<input type="email" name="email" size="30">
 
 		<label for="mobile">Mobile</label>
-		<input type="number" name="mobile">
+		<input type="number" name="mobile" size="30">
 	</fieldset>
 	<hr>
+
+	<form action="" method="">
 
 	<fieldset>
 		<legend>Your Details</legend>
 		<label for="text">Name:</label>
-		<input type="text" name="Name">
-
+		<input type="text" name="Name" size="30">
+		<br>
 		<label for="email">Email:</label>
-		<input type="email" name="email">
+		<input type="email" name="email" size="30">
 	</fieldset>
 	<br>
 	<fieldset>
 		<legend>Your Review</legend>
-		<form action="" method="">
-			How did you hear about us?
+		<label>How did you hear about us?</label>
 			<select name="website">
 			<option value="google" selected>Google</option>
 			<option value="facebook">Facebook</option>
@@ -355,35 +367,33 @@
 			<option value="website">Website</option>
 			<option value="referral">Referral</option>
 		</select>
-		</form>
+		
 		<br>
-		Would You visit again?
+		<label>Would You visit again?</label>
 		<br>
-		<input type="radio" name="choice" value="yes">Yes
-		<input type="radio" name="choice" value="no">No
-		<input type="radio" name="choice" value="Maybe">Maybe
+		
+		<label><input type="radio" name="choice" value="yes">Yes</label>
+		<label><input type="radio" name="choice" value="no">No</label>
+		<label><input type="radio" name="choice" value="Maybe">Maybe</label>
 
-		<form>
+		<br>
+
+		<label>Comments:</label>
 			<br>
-			Comments:
+			<textarea rows="4" cols="50"></textarea>
 			<br>
-			<textarea></textarea>
-		</form>
-
-		<form>
-			<input type="checkbox" name="choice" selected value="Sign me up for email updates">Sign Me up for email address
-		</form>
-
-		<input type="submit" name="Submit" value="Submit Review">
-
-
-
 	
 
 
+			<label><input type="checkbox" name="signUp" value="Sign me up for email updates" checked>Sign Me up for email address</label>
+			<br>
+		
+
+		<input type="submit" name="Submit" value="Submit Review">
 
 		<hr>
 	</fieldset>
+	<hr>
 
 
 

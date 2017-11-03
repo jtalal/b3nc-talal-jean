@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	
+	<title>CSS Prep Course</title>
+
+<!-- Custom stylesheet -->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<div class="wrapper">
+	<header>
+		<h1>Cute But Terrifying Deep Sea Creatures</h1>
+	</header>
+
+	<main>
+		<!-- dashboard -->
+		<div class="main-dashboard">
+			<h3 class="inline-blocked"><i class="fa fa-home" aria-hidden="true"></i>Dashboard</h3>
+				<div class="dashboard-thumbnail">
+					<div id="postCircle" class="dashboard-circles">
+						<i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i>
+					</div>
+					<div class="inline-blocked">
+						<p class="dashboard-text">5</p>
+						<p class="dashboard-text">posts</p>
+					</div>
+				</div>
+				<div class="dashboard-thumbnail">
+					<div id="imageCircle" class="dashboard-circles">
+					<i class="fa fa-picture-o fa-lg" aria-hidden="true"></i>
+					</div>
+					<div class="inline-blocked">
+						<p class="dashboard-text">13</p>
+						<p class="dashboard-text">images</p>
+					</div>
+		</div>
+		<!-- New Post -->
+		<div class="dashboard">
+			<h3><i class="fa fa-plus-circle" aria-hidden="true"></i>New Post</h3>
+
+			<form class="hide-overflow" action="" method="post">
+				<input id="postTitle" type="text" name="" placeholder="Enter your post title">
+				<textarea id="postContent" placeholder="Enter your post content here"></textarea>
+				<button id="btnPublish" class="btn btn-salmon" type="button" name="button">Publish</button>
+			</form>
+		</div>
+
+		<div>
+			<h3>
+				<i class="fa fa-cloud-upload" aria-hidden="true"></i>Upload Image
+			</h3>
+
+			<div class="img-set-holder">
+						<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+						<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+						<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+						<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+						<img class="img-set" src="http://lorempixel.com/300/300" alt="">
+			</div>
+
+			<form class="hide-overflow" method="post">
+				<button id="btnBrowse" class="btn btn-salmon" type="button" name="btnBrowse">Browse</button>
+				<button id="btnUpload" class="btn btn-Gold" type="button" name="btnUpload">Upload</button>
+			</form>
+		</div>
+	</main>
+
+	<footer>Tita Jean &copy; 2017 </footer>
+
+
+</body>
+</html>

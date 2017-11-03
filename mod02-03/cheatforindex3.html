@@ -6,30 +6,41 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
 	
-	<title>Dom Activity 3</title>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>CSS Prep Course</title>
+
+<!-- Custom stylesheet -->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+
+	<div class="wrapper">
 	<header>
 		<h1>Tuitt Coding Bootcamp</h1>
 	</header>
 
 	<main>
 		<!-- dashboard -->
-		<div>
-			<h3><i class="fa fa-home" aria-hidden="true"></i>Dashboard</h3>
-				<div>
-					<i class="fa fa-file-text-o" aria-hidden="true"></i>
-						<p>5</p>
-						<p>posts</p>
+		<div class="main-dashboard">
+			<h3 class="inline-blocked"><i class="fa fa-tachometer" aria-hidden="true"></i>Dashboard</h3>
+				<div class="dashboard-thumbnail">
+					<div id="postCirlce" class="dashboard-circles">
+						<i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i>
+					</div>
+					<div>
+						<p class="dashboard-text">5</p>
+						<p class="dashboard-text">posts</p>
+					</div>
 				</div>
-				<div>
-					<i class="fa fa-picture-o" aria-hidden="true"></i>
+					<div>
+						<i class="fa fa-picture-o" aria-hidden="true"></i>
 						<p>13</p>
 						<p>images</p>
-				</div>
+					</div>
 		</div>
+		
 		<div>
 			<h3><i class="fa fa-plus-circle" aria-hidden="true"></i>New Post</h3>
 			<form action="" method="">
@@ -81,6 +92,7 @@
 	</main>
 
 	<footer>Tuitt Coding Bootcamp &copy; 2017 </footer>
+
 
 </body>
 </html>

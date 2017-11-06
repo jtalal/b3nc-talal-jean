@@ -1,0 +1,86 @@
+* {
+	font-size: 24px; /*universal selector*/
+}
+
+
+.wrapper {
+	width: 80%; /* for centering to pls remember */
+	margin: 0 auto; /* for centering to */
+	border: 2px solid black;
+	padding: 20px;
+
+
+}
+
+/* :link (unvisited link) */
+a:link {
+	color: #008000; /* from blue to green */
+}
+
+/* :visited (visited link)*/
+a:visited {
+	color: #006666; /* from violet to light blue */
+}
+
+a:focus {
+	color: #992600;
+}
+a:hover {
+	background-color: salmon;
+
+}
+
+a:active {
+	color: #004d99;
+	
+}
+main.wrapper:hover {
+	background-color: lightblue;
+
+}
+
+p, #test, .spans, .box p {
+	color: #99004d;
+}
+
+/*attribute selector*/
+
+a[target="_blank"] {        /* attribute selector*/
+	background-color: yellow;
+
+}
+
+p span#dark_bg {
+	color: white;
+	background-color: black;
+
+}
+
+/*general sibling*/ /*cascading rule intervenes when attributes were adjusted*/
+
+div ~ p {
+	background-color: salmon;
+	
+}
+/*adjacent sibling*/
+div + p {
+	background-color: lightgreen;
+
+}
+
+/*child selector*/
+
+div > p {
+	background-color: blue;
+
+}
+
+/*descendant selector*/
+
+div div p {
+	background-color: orange;
+}
+
+
+
+

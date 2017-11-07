@@ -10,7 +10,7 @@
 
 ### What is the correct HTML for referring to an external style sheet?
 - ```<link rel="stylesheets" type="text/css" href="mystyle.css">``` 
-- **```<link rel="stylesheet" type="text/css" href="style.css">``` **
+- **```<link rel="stylesheet" type="text/css" href="style.css">```**
 - ```<link href="stylesheet" type="text/css" src="mystyle.css">``` 
 - ```<link src="stylesheet" type="text/css" href="mystyle.css">``` 
 
@@ -25,6 +25,8 @@
 - ```<script>```
 - **```<style>```**
 - ```<styles>```
+
+
 
 ### Which HTML attribute is used to define inline styles?
 - **Style**

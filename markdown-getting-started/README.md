@@ -38,12 +38,20 @@ echo('Hello world');
 
 ## Emoji
 
-	:monkey:
+:monkey:
 
-	:star2:
+:star2:
 
-	:speech_balloon:
+:speech_balloon:
 
-	:zap:
+:zap:
 
-	:v:
+:v:
+
+## Tables
+
+| firstname     | lastname   |
+|:--------------|:-----------|
+| Jean Ashley   | Talal      |
+
+

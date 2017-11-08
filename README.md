@@ -7,3 +7,10 @@
 # 2017-10-25
 ### Getting started with GitLab
 This is my first feedback
+
+
+## 2017-11-08
+###  HTML and CSS lectures with the Sirs
+Lodi mga sir! Salute.  
+Please if there's time, teach us how to use the other text editor appplications.  
+

@@ -43,6 +43,7 @@ echo('Hello world');
 :star2:
 
 :speech_balloon:
+<<<<<<< HEAD
 
 :zap:
 
@@ -55,3 +56,9 @@ echo('Hello world');
 | Jean Ashley   | Talal      |
 
 
+=======
+
+:zap:
+
+:v:
+>>>>>>> 38f1edc549d9a6b80736b597991cbfc2338e2a23

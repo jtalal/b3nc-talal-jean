@@ -3,13 +3,30 @@
 	padding: 0;
 	box-sizing: border-box;
 
+
 }
+
+body {
+	background-color: #FFF8DC;
+}
+
+body > h1 {
+	text-align: center;
+	font-family: "Merriweather", Arial, sans-serif;
+	font-size: 42px;
+}
+
+body > h2 {
+	text-align: center;
+	font-family: "Merriweather", Arial, sans-serif;
+	font-size: 20px;
+} 
 
 .container {
 	clear: both;
-	background-color: black;
+	background-color: salmon;
 	width: 700px;
-	height: 350px;
+	height: 360px;
 	padding: 10px;
 
 
@@ -18,7 +35,7 @@
 .column {
 	height: 150px;
 	width: 150px;
-	background-color: gray;
+	background-color: #FFDEAD;
 	float: left;
 	margin: 10px 1.16%;
 	position: relative;
@@ -26,7 +43,7 @@
 
 .black-container {
 	clear: both;
-	background-color: black;
+	background-color: salmon;
 	width: 700px;
 	height: 500px;
 	padding: 10px;
@@ -42,7 +59,7 @@
 }
 
 .gray-column {
-	background-color: gray;
+	background-color: #FFDEAD;
 	height: 100px;
 	width: 100px;
 	float: left
@@ -50,7 +67,7 @@
 }
 
 .page {
-	background-color: black;
+	background-color: salmon;
 	width: 700px;
 	height: 300px;
 }
@@ -76,7 +93,7 @@ h1 {
 }
 
 .page1 {
-	background-color: black;
+	background-color: salmon;
 	width: 700px;
 	height: 290px;
 }
@@ -102,7 +119,7 @@ h1 {
 }
 
 .commentbox {
-	background-color: black;
+	background-color: salmon;
 	width: 700px;
 	height: 150px;
 }
@@ -111,9 +128,346 @@ h1 {
 .column1 {
 	height: 50px;
 	width: 50px;
-	background-color: gray;
+	background-color: #FFDEAD;
 	float: left;
-	margin: 10px 1.16%;
+	margin: 5px 1.16%;
+	padding: 10px;
+	position: relative;
+}
+
+.shout > textarea {
+	width: 600px;
+	height: 100px;
+
+}
+
+input[value=Cancel] {
+	position: absolute;
+	right: -36em;
+}
+
+input[value=Add] {
+	position: absolute;
+	right: -39em;
+}
+
+
+.page2 {
+	clear: both;
+	background-color: salmon;
+	width: 700px;
+	height: 250px;
+}
+
+
+.column2 {
+	height: 50px;
+	width: 50px;
+	background-color: #FFDEAD;
+	float: left;
+	margin: 20px 1.16%;
+	padding: 10px;
+	position: relative;
+}
+
+.username {
+	width: 600px;
+	margin-top: 0.5px;
+	left: 50px;
 	position: relative;
 
+}
+
+.comment-with-text {
+	width: 600px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	text-align: justify;
+ 	left: 50px;
+}
+
+.button > a {
+	position: relative;
+	top: 70px;
+}
+
+
+.column3 {
+	height: 50px;
+	width: 50px;
+	background-color: #FFDEAD;
+	float: left;
+	margin: 100px 1.16%;
+	padding: 10px;
+	position: relative;
+}
+
+.username1 {
+	width: 600px;
+	margin-top: 0.5px;
+	left: 50px;
+	position: relative;
+
+}
+
+.comment-with-text {
+	width: 500px;
+ 	overflow: hidden;
+ 	position: relative;
+ 	text-align: justify;
+ 	left: 50px;
+}
+
+.button1 > a {
+	position: relative;
+	top: 150px;
+}
+
+.page3 {
+	clear: both;
+	background-color: salmon;
+	width: 500px;
+	height: 120px;
+	margin: 10px;
+
+}
+
+.column4 {
+	background-color: #FFDEAD;
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	position: absolute;
+	float: left;
+
+
+}
+
+.text1 {
+	float: left;
+	position: relative;
+	left: 210px;
+	width: 300px;
+}
+
+.info {
+	float: left;
+	position: relative;
+	left: 210px;
+	width: 300px;
+}
+
+
+.page4 {
+	clear: both;
+	background-color: salmon;
+	width: 500px;
+	height: 120px;
+	margin: 10px;
+
+}
+
+.text2 {
+	height: 100px;
+	width: 300px;
+	margin: 10px;
+	position: absolute;
+	float: left;
+}
+
+.info1 {
+	margin: 10px;
+	position: relative;
+/*	top: 1em;
+*/
+
+}
+.column5 {
+	background-color: #FFDEAD;
+	width: 200px;
+	height: 100px;
+	float: right;
+	margin: 10px;
+
+}
+
+
+.page5 {
+	clear: both;
+	background-color: salmon;
+	width: 700px;
+	height: 330px;
+	margin: 10px;
+
+}
+
+.text3 {
+	height: 100px;
+	width: 230px;
+	margin: 1px;
+	position: absolute;
+	float: left;
+}
+
+.text3 > p {
+	margin-left: 10px;
+	width: 200px;
+}
+
+.text3 > form {
+	margin-left: 10px;
+	width: 210px;
+	float: left;
+}
+
+.info1 {
+	margin: 10px;
+	position: relative;
+/*	top: 1em;
+*/
+
+}
+.column6 {
+	background-color: #FFDEAD;
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin: 5px;
+	position: relative;
+
+}
+.rightside {
+	width: 500px;
+	float: right;
+	margin: 5px;
+	position: relative;
+	height: 350px;
+}
+
+.page6 {
+	clear: both;
+	background-color: salmon;
+	width: 1000px;
+	height: 550px;
+	padding: 10px;
+}
+
+.leftside {
+	width: 600px;
+	float: left;
+	position: relative;
+
+}
+
+.rightside1 {
+	width: 400px;
+	float: right;
+	position: relative;
+	bottom: 95%;
+}
+
+.whiteborder {
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	position: relative;
+
+
+}
+
+.column7 > p {
+	text-align: center;
+	margin: 10px;
+}
+
+.column8 {
+	background-color: #FFDEAD;
+	width: 138px;
+	height: 100px;
+}
+
+.column9 {
+	width: 390px;
+	height: 200px;
+	background-color: #FFDEAD;
+	float: right;
+
+}
+
+a {
+	background-color: #FFDEAD;
+	width: 5px;
+	margin: 5px;
+
+}
+
+.smallbox {
+	float: left;
+	position: relative;
+}
+
+.column10 {
+	background-color: #FFDEAD;
+	height: 100px;
+	width: 150px;
+	float: left;
+	position: relative;
+
+}
+
+.rightside > h1 {
+	float: left;
+	padding: : 20px;
+
+}
+
+.rightside > p {
+	float: left;
+	padding: 20px;
+}
+
+
+
+.page7 {
+	clear: both;
+	background-color: salmon;
+	width: 700px;
+	height: 550px;
+	padding: 10px;
+}
+
+.leftside1 {
+	width: 600px;
+	float: left;
+	position: relative;
+
+}
+
+
+
+.whiteborder1 {
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	float: left;
+	position: relative;
+
+
+}
+
+.column7 > p {
+	text-align: center;
+	margin: 10px;
+}
+
+.column11 {
+	background-color: #FFDEAD;
+	width: 138px;
+	height: 100px;
+}
 

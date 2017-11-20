@@ -1,369 +1,79 @@
 * {
 	margin: 0;
-	padding: 0;
+	position: static;
 	box-sizing: border-box;
-
+	font-family: "Merriweather", Arial, sans-serif;
+	/*text-align: center;*/
 
 }
 
 body {
-	background-color: #FFF8DC;
+	background-image: url("../img1/ocean.jpg");
+	margin: 1%;
+
 }
 
-body > h1 {
-	text-align: center;
-	font-family: "Merriweather", Arial, sans-serif;
-	font-size: 42px;
+.locator > a {
+	padding: 10px;
 }
 
-body > h2 {
+.wrapper {
+	margin: 15%;
+}
+
+
+h1 {
 	text-align: center;
-	font-family: "Merriweather", Arial, sans-serif;
-	font-size: 20px;
-} 
+
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+/*#1*/
 
 .container {
 	clear: both;
-	background-color: salmon;
-	width: 700px;
-	height: 360px;
-	padding: 10px;
-
-
-}
-
-.column {
-	height: 150px;
-	width: 150px;
-	background-color: #FFDEAD;
+	width: 680px;
+	height: auto;
+	background-color: lightblue;
 	float: left;
-	margin: 10px 1.16%;
 	position: relative;
-}
-
-.black-container {
-	clear: both;
-	background-color: salmon;
-	width: 700px;
-	height: 500px;
-	padding: 10px;
-}
-
-.white-container {
-	border: solid white;
-	height: 150px;
-	width: 150px;
-	float: left;
 	margin: 10px;
-	position: relative;
-}
-
-.gray-column {
-	background-color: #FFDEAD;
-	height: 100px;
-	width: 100px;
-	float: left
-	position: relative;
-}
-
-.page {
-	background-color: salmon;
-	width: 700px;
-	height: 300px;
-}
-
-.content {
-	width: 700px;
-	float: left;
-	padding: 10px;
+	border-radius: 10%;
 }
 
 
-.image-box {
+.avatar > img {
 	width: 150px;
 	height: 150px;
 	float: left;
-	margin-right: 40px;
-	margin-bottom: 20px;
-
-}
-
-h1 {
-	margin: 10px;
-}
-
-.page1 {
-	background-color: salmon;
-	width: 700px;
-	height: 290px;
-}
-
-.content1 {
-	width: 700px;
-	float: right;
-	padding: 10px;
-}
-
-
-.image-box1 {
-	width: 150px;
-	height: 150px;
-	float: left;
-	margin-right: 40px;
-	margin-bottom: 80px;
-
-}
-
-h1 {
-	margin: 10px;
-}
-
-.commentbox {
-	background-color: salmon;
-	width: 700px;
-	height: 150px;
-}
-
-
-.column1 {
-	height: 50px;
-	width: 50px;
-	background-color: #FFDEAD;
-	float: left;
-	margin: 5px 1.16%;
-	padding: 10px;
+	border-radius: 20%;
 	position: relative;
-}
-
-.shout > textarea {
-	width: 600px;
-	height: 100px;
-
-}
-
-input[value=Cancel] {
-	position: absolute;
-	right: -36em;
-}
-
-input[value=Add] {
-	position: absolute;
-	right: -39em;
+	margin: 10px;
 }
 
 
-.page2 {
+/*#2*/
+
+.container1 {
 	clear: both;
-	background-color: salmon;
 	width: 700px;
-	height: 250px;
-}
-
-
-.column2 {
-	height: 50px;
-	width: 50px;
-	background-color: #FFDEAD;
-	float: left;
-	margin: 20px 1.16%;
+	height: auto;
 	padding: 10px;
-	position: relative;
-}
-
-.username {
-	width: 600px;
-	margin-top: 0.5px;
-	left: 50px;
-	position: relative;
-
-}
-
-.comment-with-text {
-	width: 600px;
- 	overflow: hidden;
- 	position: relative;
- 	text-align: justify;
- 	left: 50px;
-}
-
-.button > a {
-	position: relative;
-	top: 70px;
-}
-
-
-.column3 {
-	height: 50px;
-	width: 50px;
-	background-color: #FFDEAD;
-	float: left;
-	margin: 100px 1.16%;
-	padding: 10px;
-	position: relative;
-}
-
-.username1 {
-	width: 600px;
-	margin-top: 0.5px;
-	left: 50px;
-	position: relative;
-
-}
-
-.comment-with-text {
-	width: 500px;
- 	overflow: hidden;
- 	position: relative;
- 	text-align: justify;
- 	left: 50px;
-}
-
-.button1 > a {
-	position: relative;
-	top: 150px;
-}
-
-.page3 {
-	clear: both;
-	background-color: salmon;
-	width: 500px;
-	height: 120px;
-	margin: 10px;
-
-}
-
-.column4 {
-	background-color: #FFDEAD;
-	height: 100px;
-	width: 200px;
-	margin: 10px;
-	position: absolute;
-	float: left;
-
-
-}
-
-.text1 {
 	float: left;
 	position: relative;
-	left: 210px;
-	width: 300px;
-}
-
-.info {
-	float: left;
-	position: relative;
-	left: 210px;
-	width: 300px;
-}
-
-
-.page4 {
-	clear: both;
-	background-color: salmon;
-	width: 500px;
-	height: 120px;
-	margin: 10px;
-
-}
-
-.text2 {
-	height: 100px;
-	width: 300px;
-	margin: 10px;
-	position: absolute;
-	float: left;
-}
-
-.info1 {
-	margin: 10px;
-	position: relative;
-/*	top: 1em;
-*/
-
-}
-.column5 {
-	background-color: #FFDEAD;
-	width: 200px;
-	height: 100px;
-	float: right;
-	margin: 10px;
-
-}
-
-
-.page5 {
-	clear: both;
-	background-color: salmon;
-	width: 700px;
-	height: 330px;
-	margin: 10px;
-
-}
-
-.text3 {
-	height: 100px;
-	width: 230px;
-	margin: 1px;
-	position: absolute;
-	float: left;
-}
-
-.text3 > p {
-	margin-left: 10px;
-	width: 200px;
-}
-
-.text3 > form {
-	margin-left: 10px;
-	width: 210px;
-	float: left;
-}
-
-.info1 {
-	margin: 10px;
-	position: relative;
-/*	top: 1em;
-*/
-
-}
-.column6 {
-	background-color: #FFDEAD;
-	width: 150px;
-	height: 150px;
-	float: right;
-	margin: 5px;
-	position: relative;
-
-}
-.rightside {
-	width: 500px;
-	float: right;
-	margin: 5px;
-	position: relative;
-	height: 350px;
-}
-
-.page6 {
-	clear: both;
-	background-color: salmon;
-	width: 1000px;
-	height: 550px;
-	padding: 10px;
+	background-color: lightblue;
+	border-radius: 10%;
 }
 
 .leftside {
 	width: 600px;
 	float: left;
 	position: relative;
-
-}
-
-.rightside1 {
-	width: 400px;
-	float: right;
-	position: relative;
-	bottom: 95%;
 }
 
 .whiteborder {
@@ -374,79 +84,399 @@ input[value=Add] {
 	margin: 10px;
 	float: left;
 	position: relative;
+}
 
+.column > img {
+	background-color: #FFDEAD;
+	width: 138px;
+	height: 100px;
 
 }
 
-.column7 > p {
+.column1 > p {
 	text-align: center;
 	margin: 10px;
 }
 
-.column8 {
-	background-color: #FFDEAD;
-	width: 138px;
-	height: 100px;
-}
+/*#3*/
 
-.column9 {
-	width: 390px;
-	height: 200px;
-	background-color: #FFDEAD;
-	float: right;
-
-}
-
-a {
-	background-color: #FFDEAD;
-	width: 5px;
-	margin: 5px;
-
-}
-
-.smallbox {
-	float: left;
-	position: relative;
-}
-
-.column10 {
-	background-color: #FFDEAD;
-	height: 100px;
-	width: 150px;
-	float: left;
-	position: relative;
-
-}
-
-.rightside > h1 {
-	float: left;
-	padding: : 20px;
-
-}
-
-.rightside > p {
-	float: left;
-	padding: 20px;
-}
-
-
-
-.page7 {
+.container2 {
 	clear: both;
-	background-color: salmon;
 	width: 700px;
-	height: 550px;
-	padding: 10px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	margin: 10px;
+	border-radius: 5%;
 }
 
-.leftside1 {
-	width: 600px;
+.container2 > h2 {
+	text-align: left;
+	margin: 10px;
+
+}
+
+.column2 > img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+	background-color: #FFDEAD;
+	margin: 10px;
+}
+
+/*#4*/
+
+.container3 {
+	clear: both;
+	width: 700px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	margin: 10px;
+	border-radius: 5%
+}
+
+
+.container3 > h2 {
+	text-align: left;
+	margin: 10px;
+
+}
+
+.column3 {
+	width: 155px;
+	height: 300px;
+	float: left;
+	position: relative;
+	margin: 10px;
+}
+
+.column3 > img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	position: relative;
+}
+
+/*#5*/
+
+.container4 {
+	clear: both;
+	width: 700px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 10%
+}
+
+
+.left {
+	width: 7%;
+	height: auto;
+	float: left;
+	position: relative;
+}
+
+.left > .column4 {
+	width: 50px;
+	height: 50px;
+	background-color: #FFDEAD;
 	float: left;
 	position: relative;
 
 }
 
+.column4 > img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: relative;
+} 
 
+
+.right {
+	width: 92%;
+	height: auto;
+	float: left;
+	position: relative;
+
+
+}
+
+
+.text > textarea {
+	width: 99%;
+	height: 100px;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+
+}
+
+.buttons {
+	float: right;
+}
+
+/*#6*/
+
+.container5 {
+	clear: both;
+	width: 700px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 5%;
+}
+
+.left1 {
+	width: 7%;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+
+.column5 > img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	position: relative;
+
+}
+
+.right1 {
+	width: 92%;
+	height: auto;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+
+}
+
+.text1 > p {
+	font-size: 14px;
+}
+
+.text1 {
+	margin-left: 10px;
+}
+
+.text1 > h4 {
+	margin-bottom: 5px;
+}
+
+.left2 {
+	width: 7%;
+	height: auto;
+	float: left;
+	position: relative;
+
+
+}
+
+.groupy {
+	width: 91%;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+
+.column6 > img {
+	width: 50px;
+	height: 50px
+	margin-bottom: 100px;
+	float: left;
+	position: relative;
+}
+
+.text2 > h4 {
+	margin-bottom: 5px;
+}
+
+.text2 > p {
+	font-size: 14px;
+}
+
+
+.right2 {
+	margin-left: 70px;
+
+}
+
+
+/*#7*/
+
+.square {
+	clear: both;
+	width: 700px;
+	height: 150px;
+	float: left;
+	position: relative;
+
+}
+
+.container6 {
+	clear: both;
+	width: 500px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 5%;
+
+}
+
+.left3 {
+	width: 40%;
+	height: auto;
+	float: left;
+	position: relative;
+
+
+}
+
+
+.right3 {
+	width: 59%;
+	height: auto;
+	float: left;
+	position: relative;
+	padding-left: 12px;
+}
+
+.column7 > img {
+	width: 200px;
+	height: 100px;
+}
+
+/*#8*/
+
+
+.square1 {
+	clear: both;
+	width: 700px;
+	height: 150px;
+	float: left;
+	position: relative;
+
+}
+
+.container7 {
+	clear: both;
+	width: 500px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 5%;
+
+}
+
+.left4 {
+	width: 59%;
+	height: auto;
+	float: left;
+	position: relative;
+
+
+}
+
+
+.right4 {
+	width: 40%;
+	height: auto;
+	float: left;
+	position: relative;
+}
+
+.column8 > img {
+	width: 200px;
+	height: 100px;
+}
+
+/*#9*/
+
+.container8 {
+	clear: both;
+	width: 700px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 5%
+}
+
+.left5 {
+	width: 30%;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+
+.left5 > h1 {
+	margin-bottom: 10px;
+}
+
+.right5 {
+	width: 69%;
+	height: auto;
+	float: left;
+	position: relative;
+	padding-left: 3px;
+}
+
+
+.column9 > img {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	background-color: #FFDEAD;
+	float: left;
+	position: relative;
+
+}
+
+/*#10*/
+
+.container9 {
+	clear: both;
+	width: 1000px;
+	height: auto;
+	background-color: lightblue;
+	float: left;
+	position: relative;
+	padding: 10px;
+	border-radius: 5%;
+
+}
+
+.left6 {
+	width: 58%;
+	height: auto;
+	float: left;
+	position: relative;
+}
+
+.right6 {
+	width: 40%;
+	height: auto;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
 
 .whiteborder1 {
 	border: 1px solid white;
@@ -455,19 +485,98 @@ a {
 	padding: 5px;
 	margin: 10px;
 	float: left;
-	position: relative;
+	position: relative;	
+}
 
+.whiteborder1 > p {
+	text-align: center;
+}
+
+.column10 {
+	background-color: #FFDEAD;
+    width: 138px;
+    height: 100px;
+}
+
+.column10 > img {
+	width: 138px;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+
+
+.column11 {
+	width: 410px;
+	height: 220px;
+	float: left;
+	position: relative;
 
 }
 
-.column7 > p {
+.column11 > img {
+	width: 410px;
+	height: 200px;
+	float: left;
+	position: relative;
+
+}
+
+.column12 > a {
+	padding: 10px;
+}
+
+.column13 {
+	width: 420px;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+
+.column14 {
+	width: 150px;
+	height: 100px;
+	background-color: #FFDEAD;
+	float: left;
+	position: relative;
+	margin-bottom: 2px;
+	margin-right: 10px;
+
+}
+
+.column14 > img {
+	width: 150px;
+	height: 100px;
+	float: left;
+	position: relative;
+}
+
+.text3 > p {
+	font-size: 12px;
+}
+
+.column15 > p {
 	text-align: center;
 	margin: 10px;
 }
 
-.column11 {
-	background-color: #FFDEAD;
-	width: 138px;
-	height: 100px;
+.container10 {
+	width: 100%
+	height: 1000px;
+	margin: 5%;
+
 }
 
+
+footer {
+	text-align: center;
+	font-size: 24px;
+}
+
+footer > img {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border-radius: 50%;
+}

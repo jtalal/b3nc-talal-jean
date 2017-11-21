@@ -1,0 +1,183 @@
+.colorfg {
+	color: salmon; /*or any other color*/
+}
+
+.colorbg {
+	background-color: black;
+}
+
+.name {
+	color: mediumaquamarine;
+}
+
+.rgb {
+	/*rgb(red, green, blue) is a built in function*/
+	/*0-255*/
+	background-color: rgb(102, 205, 170);
+}
+
+.rgba {
+	/*rgba red,gree,blue,alpha*/
+	/*alpha is 0.0 to 1.0 for opacity*/
+	background-color: rgba(255, 0, 0, 0.5);
+	color: black;
+
+}
+
+.hex {
+	/*hexadecimal: 0-9, A-F */
+	background-color: #012;
+}
+
+/*hue saturation and lightness*/
+
+.hsl {
+	/*hue, 0-360 deg*/
+	/*sat, 0%-100%*/
+	/*lightness, 0% black, 50% normal, 100% white*/
+	background-color: hsl(0, 0%, 100%);
+}
+
+/*hue sat lightness, alpha (opacity or transparency)*/
+.hsla {
+	background-color: hsla(30,50%,78%,0.5);
+}
+
+.opacity {
+	background-color: red;
+	opacity: 0.5 /*0.0-1.0*/
+}
+
+
+/*TEXT*/
+
+.bold {
+	font-weight: bold;
+
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	letter-spacing: 1px; /*for readability*/
+
+}
+
+.lowercase {
+	text-transform: lowercase;
+	letter-spacing: 1px;
+}
+
+.capitalize {
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+.underline {
+	text-decoration: line-through;
+}
+
+.none {
+	text-decoration: none; /*commonly used to modify anchor tags*/
+}
+
+.lineheight {
+	line-height: 2; /*for readability*/
+}
+
+.letterspacing {
+	letter-spacing: 3px; /*for readability*/
+}
+
+.wordspacing {
+	word-spacing: 1em;
+
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.aligncenter {
+	text-align: center;
+
+}
+
+.alignjustify {
+	text-align: justify;
+}
+
+.indent {
+	text-indent: 20px;
+}
+
+.textshadow {
+	/*textshadow: light, bottom, clarity*/
+	text-shadow: 10px 10px 20px #000;
+}
+
+/*FONT*/
+
+.localfont {
+	/*machine dependent fonts: windows, linux, macosx*/
+	/*font-family: 'Times New Roman', 'Arial', 'Comic Sans MS', serif or sans-serif;*/
+	font-family: "Comic Sans MS";
+}
+
+/*importing truetypefonts*/
+
+@font-face {
+	font-family: 'Generalemono';
+	src: url('../fonts/generalemono/generalemono-master/_font-files/ttf/GeneraleMonoC.ttf');
+}
+
+/*using the trutypefonts*/
+
+.downloadedfont {
+	font-family: 'Generalemono';
+}
+
+.serif {
+	font-family: 'Georgia', serif;
+}
+
+.sansserif {
+	font-family: 'Arial', sans-serif;
+}
+
+.monosspace {
+	font-family: 'Courier', monospace;
+}
+
+.cursive {
+	font-family: 'Comic Sans MS', cursive;
+}
+
+.fantasy {
+	font-family: 'Impact', fantasy;
+}
+
+.pixels {
+	font-size: 16px; /*default*/
+}
+
+.percent {
+	font-size: 200%; /*suitable for resposnive web design*/
+}
+
+.ems {
+	/*dependent to default font size (relative)*/
+	font-size: 1em; /*16px=1em*/
+}
+
+.boxshadow {
+	box-shadow: 10px 10px 5px #888;
+}
+

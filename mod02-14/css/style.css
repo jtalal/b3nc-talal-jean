@@ -1,0 +1,254 @@
+/* css reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+h3 {
+	margin: 15px auto;
+}
+
+.wrapper {
+	background-color: #fff; /* white */
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.item1,
+.item2 {
+	height: 150px;
+	width: 150px;
+	background-color: red;
+}
+
+.item2 {
+	border-left: 10px solid blue;
+	border-right: 10px solid blue;
+}
+
+.item3 {
+	border: 1px solid #000;
+	border-radius: 0 10px 0 10px;
+	padding: 10px;
+	display: inline;
+}
+
+.item4,
+.item5 {
+	background-color: blue;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.item5 {
+	text-align: center;
+	line-height: 150px;
+	color: #fff;
+}
+
+
+.item6 {
+	width: 600px;
+	height: 600px;
+	border: 1px solid #000;
+	position: relative;
+
+}
+
+.item6 > img {
+	width: 80px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+}
+
+.item7,
+.item8,
+.item10 {
+	width: 600px;
+	height: 150px;
+	border: 1px solid #000;
+	position: relative;
+
+}
+
+.item7 > img,
+.item8 > img {
+	width: 80px;
+
+}
+
+.item7 > img#sun,
+.item8 > img#sun {      /*img na may child na sun*/
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.item7 > img#coconut,
+.item8 > img#coconut {	/*img na may child na coconut*/
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+/*other options*/
+/*.item7 > img[src*="sun"] {  image na may source with a text "sun"
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+*/
+
+
+.item8 > p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.item9 > img[src*="dog"] {
+	width: 150px;
+	border-radius: 50%;
+
+}
+
+.left {
+	width: 150px;
+	height: auto;
+	float: left;
+	position: relative;
+}
+
+.left > img[src*="dog"] {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.right {
+	width: 200px;
+	height: 0;
+	float: left;
+	position: relative;
+}
+
+.right > p {
+	position: relative;
+	top: -50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+/* cheat for Item 10
+
+.item10 {
+	border: 1px solid #000;
+	height: 100px;
+	width: 400px;
+	position: relative;
+}
+
+.item10 > img {
+	width: 100px;
+	border-radius: 50%;
+}
+
+.item10 > span {
+	line-height: 100px;
+	position: absolute;
+}
+*/
+
+.item11 {
+	border: 1px solid #000;
+	width: 400px;
+	height: auto;
+	position: relative;
+}
+
+.item11 > img {
+	width: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.item11 > h2 {
+	text-align: center;
+	margin: 15px auto;
+}
+
+.item11 > p {
+	text-align: center;
+}
+
+/*.item11 {
+	width: 400px;
+	border: 1px solid #000;
+	text-align: center;
+
+}
+
+.item11 > img {
+	width: 50px;
+}
+
+.item11 > h2 {
+	margin: ;
+}*/
+
+.item12 {
+	width: 400px;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.item12 > img {
+	width: 50px;
+
+}
+
+
+.box > h2 {
+	margin: 15px auto;
+}
+
+.box {
+	width: 400px;
+	background-color: salmon;
+}
+
+.item13	{
+	width: 300px;
+	border: 1px solid black;
+	text-align: center;
+
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+}

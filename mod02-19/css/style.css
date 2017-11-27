@@ -1,0 +1,27 @@
+body {
+	background-color: beige;
+}
+
+.well, 
+.btn,
+.panel {
+	border-radius: 0;
+}
+
+.well {
+	background-color: turquoise;
+	border: 2px solid orange;
+}
+
+.navbar {
+	background-color: turquoise;
+	border: 2px solid orange;
+
+}
+
+
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0;
+	}
+}

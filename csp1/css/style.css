@@ -1,0 +1,412 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+@font-face {
+	font-family: 'alba';
+	src: url('../fonts/Alba.TTF');
+}
+
+body {
+	background-image: url('../img/souldance.jpg');
+	background-attachment: fixed;
+	opacity: 0.9;
+
+}
+
+embed {
+
+}
+
+.container {
+	width: 93%;
+	height: auto;
+	margin: 0 auto;
+	background-color: #000;
+}
+
+.header {
+	min-height: 480px;
+}
+
+.header > .col {
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+
+}
+
+
+.col > h1,h3,h4,h5 {
+	text-align: center;
+	letter-spacing: 2px;
+
+
+}
+
+.col > h3 {
+	font-size: 18px;
+	font-family: Arial;
+	text-decoration: underline;
+	margin-bottom: 150px;
+	color: white;
+}
+
+.col > h1 {
+	font-family: 'alba';
+	font-size: 40px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+	color: yellow;
+	font-weight: bolder;
+}
+
+.col > h4, h5 {
+	color: white;
+	font-family: serif;
+	font-style: italic;
+}
+
+.col > h5 {
+	margin-bottom: 70px;
+	text-indent: 60px;
+}
+
+.header > .nav {
+	width: 90%;
+	padding: 30px 70px 30px 70px;
+	margin: 0 auto;
+	text-align: center;			
+}
+
+
+
+.nav > a {
+	font-weight: bold;
+	font-family: 'alba';
+	font-size: 16px;
+	color: white;
+	padding: 40px;
+	letter-spacing: 2px;
+
+}
+
+.main {
+	background-color: lightgray;
+	min-height: 700px;
+	clear: both;
+}
+
+.footer {
+	background-color: brown;
+	min-height: 100px;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.left {
+	height: 700px;
+	background-color: #ff6;
+	padding: 10px;
+	border: 3px solid black;
+
+}
+
+.sidebar {
+	height: 700px;
+	background-color: orange;
+	padding: 10px;
+	border: 3px solid black;
+}
+
+
+
+
+/*desktop or large size devices*/
+.col-lg-1 {
+	width: 8.33% /*100%/12 columns*/
+
+}
+
+.col-lg-2 {
+	width: 16.66%;
+
+}
+
+.col-lg-3 {
+	width: 25%;
+
+}
+
+.col-lg-4 {
+	width: 33.33%
+}
+
+.col-lg-5 {
+	width: 41.66%;
+}
+
+.col-lg-6 {
+	width: 50%;
+}
+
+.col-lg-7 {
+	width: 58.33%;
+}
+
+.col-lg-8 {
+	width: 66.66%;
+}
+
+.col-lg-9 {
+	width: 75%;
+}
+
+.col-lg-10 {
+	width: 83.33%;
+}
+
+.col-lg-11 {
+	width: 91.66%;
+}
+
+.col-lg-12 {
+	width: 100%;
+}
+
+div[class*="col-lg"] {
+	/*border: 5px solid black;*/
+	float: left;
+/*	border-collapse: collapse;
+*/}
+
+/**
+tablet or medium sized devices
+**/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	.col-md-1 {
+	width: 8.33% /*100%/12 columns*/
+
+	}
+
+	.col-md-2 {
+		width: 16.66%;
+
+	}
+
+	.col-md-3 {
+		width: 25%;
+
+	}
+
+	.col-md-4 {
+		width: 33.33%
+	}
+
+	.col-md-5 {
+		width: 41.66%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-7 {
+		width: 58.33%;
+	}
+
+	.col-md-8 {
+		width: 66.66%;
+	}
+
+	.col-md-9 {
+		width: 75%;
+	}
+
+	.col-md-10 {
+		width: 83.33%;
+	}
+
+	.col-md-11 {
+		width: 91.66%;
+	}
+
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.col-sm-1 {
+	width: 8.33% /*100%/12 columns*/
+
+	}
+
+	.col-sm-2 {
+		width: 16.66%;
+
+	}
+
+	.col-sm-3 {
+		width: 25%;
+
+	}
+
+	.col-sm-4 {
+		width: 33.33%
+	}
+
+	.col-sm-5 {
+		width: 41.66%;
+	}
+
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.col-sm-7 {
+		width: 58.33%;
+	}
+
+	.col-sm-8 {
+		width: 66.66sm
+	}
+
+	.col-sm-9 {
+		width: 75%;
+	}
+
+	.col-sm-10 {
+		width: 83.33%;
+	}
+
+	.col-sm-11 {
+		width: 91.66%;
+	}
+
+	.col-sm-12 {
+		width: 100%;
+	}
+
+	.main > .sidebar {
+		height: 200px;
+	}
+}
+
+.column1 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	margin-left: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}
+
+.column1 > img[src*="blackdancing"] {
+	width: 200px;
+	height: 300px;
+	border-collapse: collapse;
+}
+
+.column1 > img[src*="soulsing"] {
+	width: 200px;
+	height: 150px;
+	border-collapse: collapse;
+
+}
+
+.column2 {
+	width: 206px;
+	height: auto;
+	margin-top: 40px;
+	background-color: white;
+	border: 3px solid white;
+	float: left;
+	position: relative;
+}
+
+.column2 > img[src*="sax"] {
+	width: 200px;
+	height: 150px;
+
+}
+
+.column2 > img[src*="blackdancing1"] {
+	width: 200px;
+	height: 300px;
+	
+}
+
+/*.column3 {
+	width: 400;
+	height: auto;
+	margin-left: 40px;
+	border-collapse: collapse;
+}
+.column3 > img[src*="soulband"] {
+	width: 411px;
+	height: 160px;
+	background-color: white;
+	border: 3px solid white;
+}*/
+
+.text1 {
+	width: 310px;
+	height: auto;
+	float: left;
+	margin-top: 45px;
+	margin-left: 20px;
+
+}
+
+.text1 > h2 {
+	margin-bottom: 40px;
+	font-size: 28px;
+}
+
+.text1 > p {
+	text-indent: 30px;
+	margin-bottom: 10px;
+	font-family: Arial;
+}
+
+.text1 > a {
+	font-size: 12px;
+	margin-left: 170px;
+}
+
+
+
+
+.article {
+	background-color: lightgreen;
+	border: 3px solid black;
+	height: 201px;
+}
+
+.footer > .col {
+	text-align: center;
+	margin: 3px;
+}
+
+.col > a {
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 100px;	
+}
+
+span {
+	font-family: 'alba'
+}

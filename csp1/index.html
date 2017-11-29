@@ -8,7 +8,14 @@
 
 	<title>The Millennial FUNK</title>
 
+
+
+	<!-- Import Bootsrap CSS -->
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+	<!-- Import custom css -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 
 
 
@@ -17,11 +24,64 @@
 
 </head>
 <body>
-	<div class="container">
-		<div class="row header">
-		<!-- <embed src="preview (3).mp3" autostart="false" loop="false" width="70" height="40">
-		</embed> -->
 
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Blog</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	
+	<div class="container-fluid">
+		<div class="row header">
 			<div class="col">
 				<h1>-The Millennial FUNK-</h1>
 				<h3>Your Quick Guide to the Soul and Motown Sound</h3>
@@ -29,26 +89,22 @@
 				<h4>"Love, peace and SOUL."</h4>
 				<h5>-Don Cornelius</h5>
 			</div>
+
 			<div class="nav">
-				<a href="#">About</a>
-				<a href="#">News</a>
-				<a href="#">Gallery</a>
-				<a href="#">Funkify!</a>
+				<button class="btn btn-success">
+					Vinyl It!
+				</button>
+				<button class="btn btn-primary">
+					 Funkify
+				</button>
 			</div>
+
 		</div>
 		<div class="row main clear">
-			<div class="left col-lg-10 col-md-6 col-sm-12">
-				<div class="column1">
-					<img src="img/blackdancing.jpg"><br>
-					<img src="img/soulsing.jpg">
-				</div>
-				<div class="column2">
-					<img src="img/sax.jpg">
-					<img src="img/blackdancing1.jpg">
-				</div>
-			<!-- 	<div class="column3">
-					<img src="img/soulband.jpg">
-				</div> -->
+			<div class="left col-md-4">
+				<img class="img-responsive" src="img/groupie.jpg">
+			</div>
+			<div class="col-md-5">
 				<div class="text1">
 					<h2>The Definition of Soul</h2>
 					<p><strong>Soul music</strong> is a combination of R&B and gospel and began in the late 1950s in the United States. Soul differentiates from R&B due to Soul music's use of gospel-music devices, its greater emphasis on vocalists and its merging of religious and secular themes.</p>
@@ -62,8 +118,31 @@
 
 					<a href="https://www.thoughtco.com/music-4132920">@ ThoughtCo.</a>
 				</div>
+				
 			</div>
-			<div class="sidebar col-lg-2 col-md-6 col-sm-12">Follow Us!</div>
+			<div class="sidebar col-md-3">Follow Us!
+			</div>
+			<div class="member col-md-3">
+				<form action="" style="border:1px solid #ccc">
+			  <div class="container">
+			    <label><b>Email</b></label>
+			    <input type="text" placeholder="Enter Email" name="email" required>
+
+			    <label><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="psw" required>
+
+			    <label><b>Repeat Password</b></label>
+			    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			    <input type="checkbox" checked="checked"> Remember me
+			    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+			    <div class="clearfix">
+			      <button type="button" class="cancelbtn">Cancel</button>
+			      <button type="submit" class="signupbtn">Sign Up</button>
+			    </div>
+			  </div>
+			</form>
+			</div>
 		</div>
 		<div class="row thumbnails clear">
 			<div class="article col-lg-3 col-md-6 col-sm-12"></div>
@@ -83,6 +162,11 @@
 		</div>
 	</div>
 
+	<!-- import jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+	<!-- import bootstrap.js -->
+	<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

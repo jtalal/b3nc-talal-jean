@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'alba';
+	src: url('../fonts/Alba.TTF');
+}
+
+
+body {
+	background-image: url('../img/turntable.jpg');
+	background-attachment: fixed;
+}
+
+.container {
+	width: 95%;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+.nav>li>a>img {
+	width: 200px;
+	height: 25px;
+}
+
+.page-header {
+	text-align: center;
+}
+
+.page-header > h1 {
+	font-family: 'alba';
+	text-align: center;
+	color: yellow;
+}
+
+.page-header > p {
+	color: white;
+}
+
+
+/*.page-body > img {
+	margin-top: 20px;
+	float: left;
+	position: relative;
+	border-radius: 10%;
+}
+
+.page-body > form {
+	margin-left: 30px;
+	margin-top: 25px;
+	float: left;
+	position: relative;
+	color: white;
+}*/

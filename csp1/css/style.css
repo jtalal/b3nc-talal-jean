@@ -84,7 +84,7 @@ embed {
 
 
 
-.nav > button {
+.nav > button > a {
 	font-weight: bold;
 	font-family: 'alba';
 	font-size: 24px;
@@ -113,8 +113,8 @@ embed {
 }
 
 .left > img {
-	margin-left: 40px;
-	margin-top: 40px;
+/*	margin-left: 40px;
+*/	margin-top: 20px;
 }
 
 .sidebar {

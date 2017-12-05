@@ -93,9 +93,23 @@ embed {
 
 }
 
+.navbar {
+	border: 1px solid yellow;
+}
+
+.form-control {
+	height: 25px;
+	border-radius: 0;
+}
+
+.btn {
+	padding: 2px 12px;
+	border-radius: 0;
+}
+
 .main {
 	background-color: #ff6;
-	min-height: 700px;
+	min-height: 600px;
 	clear: both;
 }
 
@@ -107,7 +121,7 @@ embed {
 }
 
 .left {
-	min-height: 700px;
+	min-height: 600px;
 	background-color: #ff6;
 	padding: 10px;
 }
@@ -125,8 +139,8 @@ embed {
 }
 
 .member {
-	height: 400px;
-	background-color: lightgreen;
+	height: 300px;
+	background-color: salmon;
 	padding: 10px;
 	border: 3px solid black;
 }
@@ -145,7 +159,7 @@ embed {
 
 
 .text1 {
-	width: 350px;
+	width: 375px;
 	height: auto;
 	float: left;
 	margin-top: 30px;
@@ -156,6 +170,7 @@ embed {
 .text1 > h2 {
 	margin-bottom: 40px;
 	font-size: 28px;
+	font-family: 'alba';
 }
 
 .text1 > p {
@@ -193,4 +208,19 @@ embed {
 
 span {
 	font-family: 'alba'
+}
+
+.sidebar > h3 {
+	margin-top: -5px;
+	text-align: left;
+
+}
+
+.sidebar > ul > li {
+	margin-left: 10px;
+}
+
+.member > h3 {
+	margin-top: -5px;
+	text-align: left;
 }

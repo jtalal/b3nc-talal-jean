@@ -15,8 +15,8 @@ body {
 	background-attachment: fixed;
 }
 
-.container-fluid {
-	width: 95%;
+.container {
+	width: 80%;
 	height: auto;
 	margin: 0 auto;
 
@@ -45,28 +45,17 @@ body {
 	text-align: center;
 }
 
-.page-header > h1 {
+.row > .col-sm-12 {
+	background-color: gray;
+	width: auto;
+	height: auto;
+	color: white;
+	opacity: 0.9;
+}
+
+.col-sm-12 > h1 {
+	margin-bottom: 20px;
 	font-family: 'alba';
-	text-align: center;
-	color: yellow;
-}
-
-.page-header > p {
-	color: white;
-}
-
-
-.col-md-12 > img {
-	margin-top: 20px;
-	float: left;
-	position: relative;
-	border-radius: 5%;
-}
-
-.page-body > form {
-	margin-left: 30px;
-	margin-top: 25px;
-	color: white;
 }
 
 .footer > .col {

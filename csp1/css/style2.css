@@ -53,6 +53,7 @@ body {
 
 .page-header > p {
 	color: white;
+	font-size: 18px;
 }
 
 .page-body > img {
@@ -68,9 +69,29 @@ body {
 	color: white;
 }
 
-.footer > .col {
+.footer {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	bottom: 0;
+}
+
+
+.footer > p {
+	font-family: 'alba';
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer > .col, .social {
 	text-align: center;
 	margin: 3px;
+}
+
+.social > a > img {
+	width: 50px;
+	height: 50px;
 }
 
 .col > a {
@@ -81,6 +102,9 @@ body {
 	margin-bottom: 100px;	
 }
 
+
+
 span {
-	font-family: 'alba'
+	font-family: 'alba';
+	color: #fff;
 }

@@ -15,10 +15,12 @@ body {
 	background-attachment: fixed;
 }
 
-.container-fluid {
-	width: 95%;
-	height: auto;
+.container {
+	width: 80%;
 	margin: 0 auto;
+	background-color: gray;
+	opacity: 0.9;
+	color: white;
 
 }
 
@@ -41,34 +43,35 @@ body {
 	border: 1px solid yellow;
 }
 
-.page-header {
-	text-align: center;
-}
 
-.page-header > h1 {
-	font-family: 'alba';
-	text-align: center;
+/*.row > .col-sm-12 {
+	background-color: gray;
+	width: auto;
+	height: auto;
+	color: white;
+	opacity: 0.9;
+}*/
+
+.col-sm-12 > h1 {
+/*	margin-bottom: 20px;
+*/	font-family: 'alba';
 	color: yellow;
 }
 
-.page-header > p {
-	color: white;
-	font-size: 18px;
+.img-responsive {
+	width: 350px;
 }
 
-
-.col-md-12 > img {
-	margin-top: 20px;
-	float: left;
-	position: relative;
-	border-radius: 5%;
+.comment {
+	color: blue;
 }
 
-.page-body > form {
-	margin-left: 30px;
-	margin-top: 25px;
-	color: white;
+.strong {
+	text-align: center;
+	color: yellow;
+	
 }
+
 
 .footer {
 	width: 100%;
@@ -76,7 +79,6 @@ body {
 	background-color: #000;
 	bottom: 0;
 }
-
 
 .footer > p {
 	font-family: 'alba';
@@ -102,6 +104,7 @@ body {
 	letter-spacing: 2px;
 	margin-bottom: 100px;	
 }
+
 
 
 span {

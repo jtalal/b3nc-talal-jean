@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 	background-color: gray;
 	opacity: 0.9;
@@ -35,8 +35,8 @@ body {
 }
 
 .btn {
-	padding: 2px 12px;
-	border-radius: 0;
+	padding: 5px 15px;
+	border-radius: 10px;
 }
 
 .navbar {
@@ -60,6 +60,7 @@ body {
 
 .img-responsive {
 	width: 350px;
+	height: 300px;
 }
 
 .comment {
@@ -69,6 +70,7 @@ body {
 .strong {
 	text-align: center;
 	color: yellow;
+	font-size: 18px;
 	
 }
 
@@ -107,7 +109,16 @@ body {
 
 
 
-span {
+.copyright {
 	font-family: 'alba';
 	color: #fff;
+}
+
+nav {
+	text-align: center;
+}
+
+.final {
+	color: #fff;
+	font-size: 10px;
 }

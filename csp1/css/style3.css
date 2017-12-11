@@ -32,8 +32,8 @@ body {
 }
 
 .btn {
-	padding: 2px 12px;
-	border-radius: 0;
+	padding: 5px 15px;
+	border-radius: 10px;
 }
 
 .navbar {
@@ -62,7 +62,6 @@ body {
 	width: 100%;
 	height: auto;
 	background-color: #000;
-	position: fixed;
 	bottom: 0;
 }
 

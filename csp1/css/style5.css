@@ -15,10 +15,12 @@ body {
 	background-attachment: fixed;
 }
 
-.container-fluid {
+.container {
 	width: 95%;
-	height: auto;
 	margin: 0 auto;
+	background-color: gray;
+	opacity: 0.9;
+	color: white;
 
 }
 
@@ -41,38 +43,37 @@ body {
 	border: 1px solid yellow;
 }
 
-.page-header {
-	text-align: center;
-}
 
-.page-header > h1 {
-	font-family: 'alba';
-	text-align: center;
+/*.row > .col-sm-12 {
+	background-color: gray;
+	width: auto;
+	height: auto;
+	color: white;
+	opacity: 0.9;
+}*/
+
+.col-sm-12 > h1 {
+/*	margin-bottom: 20px;
+*/	font-family: 'alba';
 	color: yellow;
 }
 
-.page-header > p {
-	color: white;
+.img-responsive {
+	width: 350px;
+	height: 200px;
+}
+
+.comment {
+	color: blue;
+}
+
+.strong {
+	text-align: center;
+	color: yellow;
 	font-size: 18px;
+	
 }
 
-.page-body > img {
-	margin-top: 20px;
-	float: left;
-	position: relative;
-	border-radius: 5%;
-}
-
-.page-body > form {
-	margin-left: 30px;
-	margin-top: 25px;
-	color: white;
-}
-
-.well {
-	width: 65%;
-	margin: 0 auto;
-}
 
 .footer {
 	width: 100%;
@@ -80,7 +81,6 @@ body {
 	background-color: #000;
 	bottom: 0;
 }
-
 
 .footer > p {
 	font-family: 'alba';
@@ -109,7 +109,20 @@ body {
 
 
 
-span {
+.copyright {
 	font-family: 'alba';
 	color: #fff;
+}
+
+nav {
+	text-align: center;
+}
+
+.date {
+	color: orange;
+}
+
+.final {
+	color: #fff;
+	font-size: 10px;
 }

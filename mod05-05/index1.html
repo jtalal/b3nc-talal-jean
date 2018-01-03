@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Intro</title>
+</head>
+<body>
+	<input type="text" id="num"><br>
+	<input type="num" id="percent">
+	<button onclick="getNum()">Go!</button>
+	<p id="show">Show result here</p>
+
+<script type="text/javascript">
+	function getNum(){
+	var num = parseInt(document.getElementById("num").value); /*parseInt to add nmbers, for calculations*/
+	document.getElementById("show").innerHTML = num + (percent/100);
+	}
+</script>
+
+</body>
+</html>

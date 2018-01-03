@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the number</title>
+</head>
+<body>
+	<body>
+    <h1>Guess the number</h1>
+    <button onclick="guessGame()">Press Me!</button>
+
+<script>
+var number = Math.floor(Math.random() * 10 + 1)
+var guess
+var output
+var guessed = false
+
+
+do {
+  guess = prompt("Number between 1 and 10, what is your number?");
+  if (guess > number) {
+    alert("You guessed too high, think smaller");
+    guessed = false
+  } else if (guess < number) {
+    alert("You guessed too low, think bigger");
+    guessed = false
+  } else {
+    alert("You guessed the right number!")
+    guessed = true
+  }
+}
+while (guessed === false)
+    </script>
+    </body> 
+
+</body>
+</html>

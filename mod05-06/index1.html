@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Intro</title>
+</head>
+<body>
+
+	<h1>Sample JS</h1>
+	<h2>Night Class</h2>
+
+	<input type="number" id="input"><button id="btn" onclick="dRaw()">Draw!</button>
+	<div id="loopDisplay"></div>
+
+
+	<script type="text/javascript">
+
+	
+	for(var x=0; x<=20; x++){
+		if (x % 3 == 0 && x % 5 ==0)
+			console.log(x + " is a multiple of 3 AND 5")
+		else if (x % 3 == 0 /*&& x%5 !==0 */) 
+			console.log(x + " is a multiple of 3 but not of 5")
+		else if (/*x % 3 !== 0 &&*/ x%5 ==0 ) 
+			console.log(x + " is a multiple of 5 but not of 3")
+		else /*if (x % 3 !== 0 && x%5 !==0 ) */
+			console.log(x + " is not a multiple of 5 AND 3")
+	}
+
+	function dRaw(){	
+			document.getElementById("loopDisplay").innerHTML = ""	
+	
+		var num = parseInt(document.getElementById('input').value);
+	// var num = document.getElementById('input').value
+	// console.log(num)
+	for(var x=1; x<=num; x++){
+		for (var y=1; y<=num; y++){
+		document.getElementById("loopDisplay").innerHTML += " *";
+	}
+		document.getElementById("loopDisplay").innerHTML += "<br>"
+}
+
+	/*for(var x=1; x<=5; x++){
+		document.getElementById("loopDisplay").innerHTML += " * <br>" *//*+ means concatenate
+	}*/
+}
+	</script>
+
+</body>
+</html>

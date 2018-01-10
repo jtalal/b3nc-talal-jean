@@ -1,0 +1,19 @@
+/*li {
+	text-transform: capitalize;
+}*/
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+	background-color: #000;
+	color: #fff;
+}
